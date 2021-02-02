@@ -77,5 +77,8 @@ export default function LandingPage() {
         <h1>Jason Praful Francis Xavier</h1>
         <h2>Full Stack Developer | ML Engineer | Cloud Specialist</h2>
         <SocialLinks/>
+        <br/>
+        <br/>
+        <a href="https://jasonpraful.co.uk/resume.pdf" title="PDF Resume" target="_blank"><h3 style={{fontSize: 2+'rem'}}>Download PDF Resume</h3></a>
     </section>
 }
