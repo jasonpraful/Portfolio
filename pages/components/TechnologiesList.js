@@ -1,122 +1,124 @@
-import Image from 'next/image'
+import Image from "next/image";
 import styles from "../../styles/Technologies.module.scss";
 
-const height =  40;
-const width = 40;
+const height = 50;
+const width = 50;
 
 const technologies = [
-    {
-        src: '/Technologies/react.svg',
-        alt: 'ReactJS'
-    },
-    {
-        src: '/Technologies/vue.svg',
-        alt: 'VueJS'
-    },
-    {
-        src: '/Technologies/angular.svg',
-        alt: 'AngularJS'
-    },
-    {
-        src: '/Technologies/javascript.svg',
-        alt: 'JS'
-    },
-    {
-        src: '/Technologies/typescript.svg',
-        alt: 'TypeScript'
-    },
-    {
-        src: '/Technologies/redux.svg',
-        alt: 'Redux'
-    },
-    {
-        src: '/Technologies/node.svg',
-        alt: 'Node.JS'
-    },
-    {
-        src:'/Technologies/express.svg',
-        alt:'ExpressJS'
-    },
-    {
-        src:'/Technologies/mongodb.svg',
-        alt:'MongoDB'
-    },
-    {
-        src:'/Technologies/mysql.svg',
-        alt:'MySQL'
-    },
-    {
-        src: '/Technologies/firebase.svg',
-        alt: 'Firebase'
-    },
-    {
-        src: '/Technologies/rn.svg',
-        alt: 'React Native'
-    },
-    {
-        src: '/Technologies/swift.svg',
-        alt: 'Swift'
-    },
-    {
-        src: '/Technologies/java.svg',
-        alt: 'Java'
-    },
-    {
-        src: '/Technologies/python.svg',
-        alt: 'Python'
-    },
-    {
-        src: '/Technologies/tensorflow.svg',
-        alt: 'Tensorflow'
-    },
-    {
-        src: '/Technologies/keras.svg',
-        alt: 'Keras'
-    },
-    {
-        src: '/Technologies/opencv.svg',
-        alt: 'OpenCV'
-    },
-    {
-        src: '/Technologies/c.svg',
-        alt: 'C++'
-    },
-    {
-        src: '/Technologies/docker.svg',
-        alt: 'Docker'
-    },
-    {
-        src: '/Technologies/jenkins.svg',
-        alt: 'Jenkins'
-    },
-    {
-        src: '/Technologies/terraform.svg',
-        alt: 'Terraform'
-    },
-    {
-        src: '/Technologies/kubernetes.svg',
-        alt: 'Kubernetes'
-    },
-    {
-        src:'/Technologies/git.svg',
-        alt:'Git'
-    },
-]
+  {
+    src: "/react.svg",
+    alt: "ReactJS",
+  },
+  {
+    src: "/vue.svg",
+    alt: "VueJS",
+  },
+  {
+    src: "/angular.svg",
+    alt: "AngularJS",
+  },
+  {
+    src: "/javascript.svg",
+    alt: "JS",
+  },
+  {
+    src: "/typescript.svg",
+    alt: "TypeScript",
+  },
+  {
+    src: "/redux.svg",
+    alt: "Redux",
+  },
+  {
+    src: "/nodejs.svg",
+    alt: "Node.JS",
+  },
+  {
+    src: "/express.svg",
+    alt: "ExpressJS",
+  },
+  {
+    src: "/mongodb.svg",
+    alt: "MongoDB",
+  },
+  {
+    src: "/mysql.svg",
+    alt: "MySQL",
+  },
+  {
+    src: "/firebase.svg",
+    alt: "Firebase",
+  },
+  {
+    src: "/rn.svg",
+    alt: "React Native",
+  },
+  {
+    src: "/swift.png",
+    alt: "Swift",
+  },
+  {
+    src: "/java.svg",
+    alt: "Java",
+  },
+  {
+    src: "/python.svg",
+    alt: "Python",
+  },
+  {
+    src: "/tensorflow.svg",
+    alt: "Tensorflow",
+  },
+  {
+    src: "/keras.svg",
+    alt: "Keras",
+  },
+  {
+    src: "/opencv.svg",
+    alt: "OpenCV",
+  },
+  {
+    src: "/c.svg",
+    alt: "C++",
+  },
+  {
+    src: "/docker.svg",
+    alt: "Docker",
+  },
+  {
+    src: "/jenkins.svg",
+    alt: "Jenkins",
+  },
+  {
+    src: "/terraform.svg",
+    alt: "Terraform",
+  },
+  {
+    src: "/kubernetes_new.png",
+    alt: "Kubernetes",
+  },
+  {
+    src: "/git.svg",
+    alt: "Git",
+  },
+];
 
 export default function TechnologiesList() {
-    return <div className={styles.technologyList}>
-        {
-            technologies.map((tech,index) => <div key={index}>
-                    <Image
-                        src={tech.src}
-                        alt={tech.alt}
-                        height={height}
-                        width={width}
-                        className={styles.image}
-                    />
-                    <p>{tech.alt}</p>
-                </div>
-            )
-        }
+  return (
+    <div className={styles.technologyList}>
+      {technologies.map((tech, index) => (
+        <div key={index}>
+          <Image
+            src={tech.src}
+            alt={tech.alt}
+            height={height}
+            width={width}
+            className={styles.image}
+            quality={100}
+          />
+          <p>{tech.alt}</p>
+        </div>
+      ))}
     </div>
+  );
 }

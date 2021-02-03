@@ -12,10 +12,11 @@ export default function LandingPage() {
                title="info@jasonpraful.co.uk"
                target='blank'>
                 <Image
-                    src="/Social/gmail.svg"
+                    src="/gmail.svg"
                     alt="info@jasonpraful.co.uk"
                     width={width}
                     height={height}
+                    quality={100}
                 />
             </a>
             <a href="https://github.com/JasonPraful"
@@ -23,37 +24,42 @@ export default function LandingPage() {
                title="jasonpraful"
                target='blank'>
                 <Image
-                    src="/Social/github.svg"
+                    src="/github.png"
                     alt="JasonPraful"
                     width={width}
                     height={height}
+                    quality={100}
+
                 />
             </a>
             <a href="https://www.linkedin.com/in/jasonpraful/"
                title="Jason Praful Francis"
                target='blank'>
                 <Image
-                    src="/Social/linkedin.svg"
+                    src="/linkedin.png"
                     alt="Jason Praful"
                     width={width}
                     height={height}
+                    quality={100}
+
                 />
             </a>
             <a href="https://twitter.com/jasonpraful"
                title="@jasonpraful"
                target='blank'>
                 <Image
-                    src="/Social/twitter.svg"
+                    src="/twitter.png"
                     alt="@jasonpraful"
                     width={width}
                     height={height}
+                    quality={100}
                 />
             </a>
             {/* <a href="https://discord.gg"
                title="freak2810#9756"
                target='blank'>
                 <Image
-                    src="/Social/discord.svg"
+                    src="/discord.svg"
                     alt="freak2810#9756"
                     width={width}
                     height={height}
@@ -63,9 +69,10 @@ export default function LandingPage() {
                title="_.jason._"
                target='blank'>
                 <Image
-                    src="/Social/instagram.svg"
+                    src="/instagram.png"
                     alt="_.jason._"
                     width={width}
+                    quality={100}
                     height={height}
                 />
             </a>

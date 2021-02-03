@@ -5,6 +5,7 @@ module.exports = {
     includePaths: [path.join(__dirname, "styles")],
   },
   images: {
-    domains: ["jasonpraful.co.uk"],
+     loader: 'cloudinary',
+     path:"https://res.cloudinary.com/jdawg"
   },
 };

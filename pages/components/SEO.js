@@ -13,7 +13,7 @@ export default function SEO() {
 
       <meta charSet="UTF-8" />
       <meta httpEquiv="content-language" content="en" />
-      <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+      <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://jasonpraful.co.uk/" />
