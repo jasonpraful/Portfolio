@@ -6,7 +6,7 @@
         @include headings;
     }
     .educationList {
-        height: 110vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -51,5 +51,7 @@
     }
     .educationList {
         margin-left: 10vw;
+        // margin-top: 20vw;
+        // height: 110vh;
     }
 }
