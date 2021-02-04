@@ -81,7 +81,7 @@ export default function LandingPage() {
     }
 
     return <section className={styles.container}>
-        <h1>Jason Praful Francis Xavier</h1>
+        <h1>Jason Praful</h1>
         <h2>Full Stack Developer | ML Engineer | Cloud Specialist</h2>
         <SocialLinks/>
         <br/>

@@ -15,13 +15,13 @@ const education = [
         duration: '06/2015 - 05/2017',
         marks: '96.5%'
     },
-    {
-        class: 'X (GCSE Equivalent)',
-        college: 'Clarence High School',
-        city: '(Bangalore, IN)',
-        duration: '05/2015',
-        marks: '9.7 CGPA'
-    }
+    // {
+    //     class: 'X (GCSE Equivalent)',
+    //     college: 'Clarence High School',
+    //     city: '(Bangalore, IN)',
+    //     duration: '05/2015',
+    //     marks: '9.7 CGPA'
+    // }
 ]
 
 export default function EducationList() {
