@@ -11,7 +11,7 @@ const experience = [
     },
     {
         role: 'Trustee',
-        company: 'Union of Brunel Students',
+        company: 'Union of Brunel Students (Charity Number - 1173492)',
         duration: '03/2019 - Present',
         location: 'London, UK',
         tasks: [
