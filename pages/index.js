@@ -4,6 +4,7 @@ import ExperiencePage from "./components/ExperiencePage";
 import EducationPage from "./components/EducationPage";
 import CertificationsPage from "./components/CertificationsPage";
 import ProjectsPage from "./components/ProjectsPage";
+import FooterPage from "./components/FooterPage";
 import SEO from "./components/SEO";
 
 export default function Home() {
@@ -16,9 +17,7 @@ export default function Home() {
       <EducationPage />
       <CertificationsPage />
       {/* <ProjectsPage/> */}
-      <div>
-        Copyright 2021 Jason Praful Made with love in London, united Kingdom.
-      </div>
+      <FooterPage/>
     </main>
   );
 }
